@@ -1,0 +1,10 @@
+[project]
+name = "access-control-backend"
+version = "1.0.0"
+description = "Backend application with custom authentication and database-backed authorization rules."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
